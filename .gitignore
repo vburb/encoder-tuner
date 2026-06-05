@@ -1,3 +1,11 @@
+# Data and model artifacts
+data/*
+!data/README.md
+outputs/*
+!outputs/README.md
+runs/
+predictions.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
