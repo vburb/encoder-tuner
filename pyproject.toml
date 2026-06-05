@@ -1,0 +1,20 @@
+[project]
+name = "question-encoder"
+dynamic = ["version"]
+description = "Encoder fine tuner"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.1.0",
+    "torch",
+    "transformers>=4.48.0",
+    "datasets",
+    "scikit-learn",
+    "pandas",
+    "tensorboard",
+]
+
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
